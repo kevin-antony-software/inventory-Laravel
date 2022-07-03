@@ -1,0 +1,54 @@
+.grid-container {
+    height: 75px;
+}
+.logo-img {
+    height: 75px;
+    width: 10%;
+    float: left;
+}
+.company-name {
+    height: 75px;
+    width: 86%;
+    float: right;
+    background-color: #198cf7;
+}
+.company-name > h1 {
+    color: white;
+    text-align: center;
+    font-size: 180%;
+}
+.logo-img>img {
+    height: 70px;
+    width: auto;
+}
+.address-details {
+    text-align: center;
+}
+.address-details>h1 {
+    text-align: center;
+    font-size: 120%;
+    font-style: italic; 
+    margin-top: 2px;
+}
+.address-details > h5 {
+    text-align: center;
+    font-size: 80%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.prompt-address {
+    position: absolute;
+    bottom : 100;
+    width: 100%;
+}
+#prompt {
+    border: 1px solid;
+}
+
+#prompt th {
+    border: 1px solid;
+}
+#prompt td {
+    border: 1px solid;
+}
